@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    
+    public float xValue, yValue, zValue;
     
     // Start is called before the first frame update
     void Start()
@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(0.1f, 0, 0);
+        transform.Translate(xValue, yValue, zValue);
+
     }
 }
