@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float xValue, yValue, zValue;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,7 +14,8 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(xValue, yValue, zValue);
+        float xValue = Input.GetAxis("Horizontal"), yValue = 0, zValue = Input.GetAxis("Vertical");
 
+        transform.Translate(xValue, yValue, zValue);
     }
 }
