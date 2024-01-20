@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ObjectDropper : MonoBehaviour
 {
+    private int timeThreshold = 3;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +16,7 @@ public class ObjectDropper : MonoBehaviour
     void Update()
     {
         Debug.Log("Time passed: " + Time.time);
-        if (Time.time > 3)
+        if (Time.time > timeThreshold)
         {
             // implement gravity to attached object.
         }
