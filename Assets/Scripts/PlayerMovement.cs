@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 5;
@@ -14,6 +15,12 @@ public class PlayerMovement : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+    {
+        playerControls();
+
+    }
+
+    void playerControls()
     {
         float xValue = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed, yValue = 0, zValue = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
 
