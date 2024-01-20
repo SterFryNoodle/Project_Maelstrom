@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WallCollision : MonoBehaviour
+public class Scorer : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
-    {        
-        GetComponent<MeshRenderer>().material.color = Color.cyan;
+    {
+        
     }
 }
