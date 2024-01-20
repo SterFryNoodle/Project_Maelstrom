@@ -13,6 +13,6 @@ public class TimeElapsed : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log("Time passed: " + Time.time);
     }
 }
