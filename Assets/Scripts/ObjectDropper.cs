@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class ObjectDropper : MonoBehaviour
 {
+    MeshRenderer renderer;
     [SerializeField] float timeThreshold = 3;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        renderer = GetComponent<MeshRenderer>();
+
+        renderer.enabled = false;
     }
 
     // Update is called once per frame
