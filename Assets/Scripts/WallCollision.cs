@@ -7,5 +7,6 @@ public class WallCollision : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         Debug.Log("Bumped into wall.");
+        GetComponent<MeshRenderer>().material.color = Color.cyan;
     }
 }
