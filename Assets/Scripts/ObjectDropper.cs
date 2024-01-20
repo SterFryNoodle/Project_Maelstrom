@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class ObjectDropper : MonoBehaviour
 {
-    MeshRenderer renderer;
+    MeshRenderer rend;
+    Rigidbody rb;
     [SerializeField] float timeThreshold = 3;
     
     // Start is called before the first frame update
     void Start()
     {
-        renderer = GetComponent<MeshRenderer>();
+        rend = GetComponent<MeshRenderer>();
+        rb = GetComponent<Rigidbody>();
 
-        renderer.enabled = false;
+        rend.enabled = false;
     }
 
     // Update is called once per frame
@@ -21,11 +23,12 @@ public class ObjectDropper : MonoBehaviour
         Debug.Log("Time passed: " + Time.time);
         if (Time.time > timeThreshold)
         {
-            GetComponent<Rigidbody>().useGravity = true;
+            rend.enabled = true;
+            rb.useGravity = true;
         }
         else
         {
-            GetComponent<Rigidbody>().useGravity = false;
+            rb.useGravity = false;
         }
     }
 }
