@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Increments variable after player enters another object's collider.
 public class Scorer : MonoBehaviour
 {
     int score = 0;

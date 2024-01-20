@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Allows for player movement control based on how long each frame takes to execute, NOT by frame per second.
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -16,11 +17,11 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        playerControls();
+        PlayerControls();
 
     }
 
-    void playerControls()
+    void PlayerControls()
     {
         float xValue = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed, yValue = 0, zValue = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
 

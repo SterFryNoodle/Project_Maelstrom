@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Enables both the Mesh Renderer and gravity of an object in inpection after amt of time has passed.
 public class ObjectDropper : MonoBehaviour
 {
     MeshRenderer rend;
