@@ -1595,17 +1595,17 @@ PrefabInstance:
     - target: {fileID: 3372641781183900732, guid: d296053c85bdf334c982ac73793c19a9,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.5556
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 3372641781183900732, guid: d296053c85bdf334c982ac73793c19a9,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.5556
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 3372641781183900732, guid: d296053c85bdf334c982ac73793c19a9,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 2.5556
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 3372641781183900732, guid: d296053c85bdf334c982ac73793c19a9,
         type: 3}
@@ -1706,3 +1706,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e27732a5af631ff43bbf9af351220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotateX: 0
+  rotateY: 1
+  rotateZ: 0
