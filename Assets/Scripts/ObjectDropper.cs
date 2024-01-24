@@ -21,7 +21,7 @@ public class ObjectDropper : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log("Time passed: " + Time.time);
+        Debug.Log("Time passed: " + Time.time);
         if (Time.time > timeThreshold)
         {
             rend.enabled = true;
