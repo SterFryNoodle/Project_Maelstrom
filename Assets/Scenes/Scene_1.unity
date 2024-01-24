@@ -2788,7 +2788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0066345899f0624438c001376e71615c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeThreshold: 25
+  timeThreshold: 20
 --- !u!1 &276788005 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7728294047415220038, guid: 949c7c8953a24c1468cd4232498cc0b3,
@@ -5094,6 +5094,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1181647385}
+    - targetCorrespondingSourceObject: {fileID: 7728294047415220038, guid: 949c7c8953a24c1468cd4232498cc0b3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1181647386}
   m_SourcePrefab: {fileID: 100100000, guid: 949c7c8953a24c1468cd4232498cc0b3, type: 3}
 --- !u!1001 &730091579
 PrefabInstance:
@@ -5529,7 +5533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotateX: 0
-  rotateY: 0.5
+  rotateY: 1
   rotateZ: 0
 --- !u!1 &832575517
 GameObject:
@@ -6164,6 +6168,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 923248951}
+    - targetCorrespondingSourceObject: {fileID: 7728294047415220038, guid: 949c7c8953a24c1468cd4232498cc0b3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 923248952}
   m_SourcePrefab: {fileID: 100100000, guid: 949c7c8953a24c1468cd4232498cc0b3, type: 3}
 --- !u!4 &923248947 stripped
 Transform:
@@ -6183,6 +6191,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 604cbe4e527342849ab653c3acfa7664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &923248952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276788005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e27732a5af631ff43bbf9af351220fe5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateX: 0
+  rotateY: 2
+  rotateZ: 0
 --- !u!1 &960191959 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4002621210464353431, guid: e7826a92ceb18f049b459f47c48f62f1,
@@ -6453,6 +6476,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1387889540}
+    - targetCorrespondingSourceObject: {fileID: 7728294047415220038, guid: 949c7c8953a24c1468cd4232498cc0b3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1387889541}
   m_SourcePrefab: {fileID: 100100000, guid: 949c7c8953a24c1468cd4232498cc0b3, type: 3}
 --- !u!1 &1090912422 stripped
 GameObject:
@@ -6830,6 +6857,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 604cbe4e527342849ab653c3acfa7664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1181647386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181647380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e27732a5af631ff43bbf9af351220fe5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateX: 0
+  rotateY: 1.5
+  rotateZ: 0
 --- !u!1 &1183385844 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2968114462002946874, guid: 1fc316f98b4e091409eccce61c30c33c,
@@ -7847,6 +7889,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 604cbe4e527342849ab653c3acfa7664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1387889541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387889535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e27732a5af631ff43bbf9af351220fe5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateX: 0
+  rotateY: 1
+  rotateZ: 0
 --- !u!1001 &1396660240
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8098,7 +8155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0066345899f0624438c001376e71615c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeThreshold: 16
+  timeThreshold: 12
 --- !u!1001 &1437720921
 PrefabInstance:
   m_ObjectHideFlags: 0
